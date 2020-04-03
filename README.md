@@ -25,7 +25,13 @@ pobierz z github, następnie npm install
 ## Usage
 
 ```sh
-asddsa
+Utwórz plik .env w katalogu głównym projektu. Uzupełnij go następująco: 
+LIBRUS_LOGIN=Login librus
+LIBRUS_PASSWORD=Hasło librus
+TRELLO_API_KEY=Klucz api trello
+TRELLO_API_TOKEN=Token api trello
+TRELLO_LIST_ID=Id listy trello do której ma dodawać 
+Api key do trello i token możesz pobrać ze strony https://trello.com/app-key. Aby pobrać id listy wejdź na trello, stwórz liste, dodaj do niej kartę a nastepnie kliknij prawym przyciskiem na podgląd karty. Do adresu w przeglądarce dopisz zakończenie .json i skopiuj stamtąd idList.
 ```
 
 ## Run tests
