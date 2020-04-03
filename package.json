@@ -1,0 +1,27 @@
+{
+  "name": "trellolibrus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamilmichna/trellolibrus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamilmichna/trellolibrus/issues"
+  },
+  "homepage": "https://github.com/kamilmichna/trellolibrus#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "librus-api": "^2.4.1",
+    "node-trello": "^1.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
